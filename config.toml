@@ -6,7 +6,6 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
 copyright = "© 2021"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
-relativeURLs = true
 
 [taxonomies]
   category = "categories"
