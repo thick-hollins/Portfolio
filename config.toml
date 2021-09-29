@@ -1,4 +1,4 @@
-baseURL = "https://thick-hollins.github.io/"
+baseURL = "thick-hollins.github.io/"
 title = "Alex Nuttall"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
@@ -6,6 +6,7 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
 copyright = "© 2021"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
+relativeURLs = true
 
 [taxonomies]
   category = "categories"
@@ -42,3 +43,4 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
