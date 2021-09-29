@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Alex Nuttall</title>
-    <link>/categories/</link>
+    <link>https://thick-hollins.netlify.app/categories/</link>
     <description>Recent content in Categories on Alex Nuttall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2021</copyright>
-    <lastBuildDate>Wed, 29 Sep 2021 10:54:45 +0100</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thick-hollins.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>/categories/development/</link>
-      <pubDate>Wed, 29 Sep 2021 10:54:45 +0100</pubDate>
+      <link>https://thick-hollins.netlify.app/categories/development/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/categories/development/</guid>
+      <guid>https://thick-hollins.netlify.app/categories/development/</guid>
       <description></description>
     </item>
     

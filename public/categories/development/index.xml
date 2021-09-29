@@ -2,28 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Alex Nuttall</title>
-    <link>/categories/development/</link>
+    <link>https://thick-hollins.netlify.app/categories/development/</link>
     <description>Recent content in Development on Alex Nuttall</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2021</copyright>
-    <lastBuildDate>Wed, 29 Sep 2021 10:54:45 +0100</lastBuildDate><atom:link href="/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thick-hollins.netlify.app/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>/project/test/</link>
-      <pubDate>Wed, 29 Sep 2021 10:54:45 +0100</pubDate>
+      <title>Waypoint - final group project</title>
+      <link>https://thick-hollins.netlify.app/project/waypoint-final-group-project/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/test/</guid>
-      <description></description>
+      <guid>https://thick-hollins.netlify.app/project/waypoint-final-group-project/</guid>
+      <description>test</description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/project/hugo/</link>
-      <pubDate>Sun, 10 Feb 2019 16:53:06 -0500</pubDate>
+      <title>NC-Express - front-end project</title>
+      <link>https://thick-hollins.netlify.app/project/nc-express-front-end-project/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>/project/hugo/</guid>
-      <description></description>
+      <guid>https://thick-hollins.netlify.app/project/nc-express-front-end-project/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>NC-Express - back-end project</title>
+      <link>https://thick-hollins.netlify.app/project/nc-express-back-end-project/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thick-hollins.netlify.app/project/nc-express-back-end-project/</guid>
+      <description>test</description>
     </item>
     
   </channel>
