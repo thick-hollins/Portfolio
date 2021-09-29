@@ -1,11 +1,10 @@
-baseURL = "thick-hollins.netlify.app/"
 title = "Alex Nuttall"
 theme ="hugo-theme-basic"
-languageCode = "en-us"
+languageCode = "en"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
 copyright = "© 2021"
-description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
+description = "A software developer's personal site"
 
 [taxonomies]
   category = "categories"
