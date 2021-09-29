@@ -1,6 +1,6 @@
 +++
-title = "Hugo"
-date = 2019-02-10T16:53:06-05:00
+title = "NC-Express - front-end project"
+date = 2021-08-20
 description = ""
 tags = ["Development"]
 categories = ["Development", ""]

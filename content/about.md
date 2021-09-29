@@ -1,17 +1,13 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Me"
+date = "2021-09-29"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+I'm a a recent graduate of [Northcoders](https://northcoders.com/) bootcamp, where I learnt Javascript. I'm looking for my first job as a software developer.
 
-It makes use of a variety of open source projects including:
+![photo of me](/img/AlexNuttall.jpg)
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Find my Github at [thick-hollins](https://github.com/thick-hollins)
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Email me at <alexnuttall09@gmail.com>
 
