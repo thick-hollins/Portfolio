@@ -1,4 +1,4 @@
-baseURL = "https://thick-hollins.github.io"
+baseURL = "https://thick-hollins.github.io/"
 title = "Alex Nuttall"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
