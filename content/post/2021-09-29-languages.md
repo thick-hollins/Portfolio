@@ -13,10 +13,11 @@ The solution seems to be to pick one and try it out. I decided to use C# to work
 It's great to get some exposure to C# in this way but I doubt the advantages of a more rigourously structured language will become apparent in the context of small algorithmic code challenges. In this context, C# feels like Javascript 'with extra steps'. Tackling some kind of larger, more structured project will make the advantages more apparent.
 
 By way of example, and to test out my new blog's code highlighting, here are my two solutions to a Codewars kata whose goal is to remove elements from array a which are present in array b while preserving their order.
-
+### JS
 ```javascript
 const arrayDiff = (a, b) => a.filter(e => !b.includes(e))
 ```
+### C#
 ```c#
 using System.Collections.Generic;
 
@@ -44,4 +45,4 @@ public class Kata
   }
 }
 ```
-However, you can apparently write one-liners in C# using LINQ, which I've yet to try out.
+You can apparently write one-liners in C# using LINQ. From what I understand, newer versions of C# increasingly allow users to write concise code.

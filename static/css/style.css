@@ -7,13 +7,13 @@ body {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   /* border-radius: 4px; */
 }
 
 pre {
   display: block;
-  padding: 9.5px;
+  padding: 0;
   margin: 0 0 10px;
   line-height: 1.4;
   word-break: break-all;

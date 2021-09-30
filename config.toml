@@ -6,6 +6,7 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
 copyright = "© 2021"
 description = "A software developer's personal site"
+pygmentsUseClassic=false
 
 [taxonomies]
   category = "categories"
@@ -43,19 +44,3 @@ description = "A software developer's personal site"
   [privacy.youtube]
     privacyEnhanced = true
 
-[markup]
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ''
-    footnoteReturnLinkContents = ''
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
