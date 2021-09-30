@@ -61,10 +61,8 @@
 
 <link rel="stylesheet" href="https://thick-hollins.netlify.app/css/style.css" />
 
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css"
-/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+
 
 
 <script type="application/javascript">
@@ -115,7 +113,35 @@ if (!doNotTrack) {
 <p>Presumably many other developers reach this point, having learnt Javascript or some other first language, knowing enough about programming to have an idea of the limitations of that language, but not enough to make a truly informed decision about any particular alternative.</p>
 <h2 id="c">C#</h2>
 <p>The solution seems to be to pick one and try it out. I decided to use C# to work on the coding challenges in the <a href="https://www.coursera.org/learn/algorithmic-toolbox">Algorithmic Toolbox</a> course. This was the first time I had worked with a statically typed language, and I intially ran into some problems working with unfamilar data-types. Beyond that, however, it was nice to find that the basics of the language already felt familiar enough. The words <code>public static void</code> finally gained some significance for me.</p>
-<p>It&rsquo;s great to get some exposure to C# in this way but I doubt the advantages of a more rigourously structured language will become apparent in the context of small algorithmic code challenges. I will probably try and build some kind of text-based game using classes.</p>
+<p>It&rsquo;s great to get some exposure to C# in this way but I doubt the advantages of a more rigourously structured language will become apparent in the context of small algorithmic code challenges. In this context, C# feels like Javascript &lsquo;with extra steps&rsquo;. Tackling some kind of larger, more structured project will make the advantages more apparent.</p>
+<p>By way of example, and to test out my new blog&rsquo;s code highlighting, here are my two solutions to a Codewars kata whose goal is to remove elements from array a which are present in array b while preserving their order.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">arrayDiff</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>) =&gt; <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">filter</span>(<span style="color:#a6e22e">e</span> =&gt; <span style="color:#f92672">!</span><span style="color:#a6e22e">b</span>.<span style="color:#a6e22e">includes</span>(<span style="color:#a6e22e">e</span>))
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">using</span> System.Collections.Generic;
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Kata</span>
+{
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span>[] ArrayDiff(<span style="color:#66d9ef">int</span>[] a, <span style="color:#66d9ef">int</span>[] b)
+  {
+    List&lt;<span style="color:#66d9ef">int</span>&gt; res = <span style="color:#66d9ef">new</span> List&lt;<span style="color:#66d9ef">int</span>&gt;();
+    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i = <span style="color:#ae81ff">0</span>; i &lt; a.Length; i++)
+    {
+      <span style="color:#66d9ef">bool</span> match = <span style="color:#66d9ef">false</span>;
+      <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j = <span style="color:#ae81ff">0</span>; j &lt; b.Length; j++)
+      {
+        <span style="color:#66d9ef">if</span> (a[i] == b[j])
+        {
+          match = <span style="color:#66d9ef">true</span>;
+        }
+      }
+      <span style="color:#66d9ef">if</span> (!match)
+      {
+        res.Add(a[i]);
+      }
+    }
+    <span style="color:#66d9ef">return</span> res.ToArray();
+  }
+}
+</code></pre></div><p>However, you can apparently write one-liners in C# using LINQ, which I&rsquo;ve yet to try out.</p>
 
       </article>
 
@@ -136,10 +162,10 @@ if (!doNotTrack) {
     </div>
   </footer>
   
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 
 <script>
-  hljs.initHighlightingOnLoad();
+  hljs.highlightAll();
 </script>
 
 
