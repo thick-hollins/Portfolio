@@ -28,3 +28,19 @@ code {
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.img-sm {
+  max-height: 300px;
+}
+
+.img-sm img{
+  max-height:300px
+}
+
+.img-lg {
+  max-height: 500px;
+}
+
+.img-lg img{
+  max-height:500px
+}

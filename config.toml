@@ -6,7 +6,6 @@ googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
 copyright = "© 2021"
 description = "A software developer's personal site"
-pygmentsUseClassic=false
 
 [taxonomies]
   category = "categories"

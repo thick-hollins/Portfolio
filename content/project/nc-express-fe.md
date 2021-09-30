@@ -1,5 +1,5 @@
 +++
-title = "NC-Express - front-end project"
+title = "NC-Express - the website"
 date = 2021-08-20
 description = ""
 tags = ["Development"]
