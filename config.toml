@@ -15,6 +15,8 @@ description = "A software developer's personal site"
 [params]
   titleEmoji = ":laptop:"
   twitter = "thick_hollins"
+  favicon = "/favicon.png"  
+
 
 [Permalinks]
   post = "post/:slug"
@@ -32,7 +34,6 @@ description = "A software developer's personal site"
   name = "about"
   url = "about/"
   
-
 [privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
@@ -43,3 +44,7 @@ description = "A software developer's personal site"
   [privacy.youtube]
     privacyEnhanced = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

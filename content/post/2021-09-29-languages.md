@@ -45,4 +45,4 @@ public class Kata
   }
 }
 ```
-You can apparently write one-liners in C# using LINQ. From what I understand, newer versions of C# increasingly allow users to write concise code.
+You can apparently write one-liners in C# using LINQ, so it's hardly a fair comparison. From what I understand, newer versions of C# increasingly allow users to write concise code.
