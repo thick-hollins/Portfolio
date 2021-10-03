@@ -1,7 +1,7 @@
 +++
 author = "Alex Nuttall"
 date = 2021-10-02
-title = "Colour Mixing"
+title = "Colour Mixing 🎨"
 +++
 A while ago I made this small Javascript [game](https://thick-hollins.github.io/mixhtml/) based on colour mixing. 
 
