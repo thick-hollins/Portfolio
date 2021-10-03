@@ -40,6 +40,8 @@ The site uses a simple single-column layout which is narrow enough for mobile de
 
 Routing is handled with React Router and although the site is a single-page-app, URLs are available to the user. A NavLink component in the page header gives a visual indication of the active site-section.
 
+{{< figure src="nav.png" class="img-lg">}}
+
 ### Votes
 
 A user's votes are fetched on login and then stored in a global context. The Vote component has access to this context, and updates it optimistically as well as sending vote data to the API. Votes are validated in terms of uniqueness both within the front-end and back-end. Optimistic rendering is also used to ensure speedy feedback when posting articles and comments.

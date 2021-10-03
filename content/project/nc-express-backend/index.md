@@ -39,7 +39,7 @@ const article = await db
     RETURNING *;
   ;`)
 ```
-However, since using MongoDB and Mongoose in my [final project](/project/waypoint-final-group-project), this kind of dependence on string manipulation seems a bit cumbersome in comparison.
+However, since using MongoDB and Mongoose in my [final project](/project/waypoint-group-project), this kind of dependence on string manipulation seems a bit cumbersome in comparison.
 
 ## Users and tokens
 
