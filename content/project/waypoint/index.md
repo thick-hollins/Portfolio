@@ -50,7 +50,7 @@ Although we were all already familiar with React, there were challanges in adapt
 
 ### Back-end technologies
 
-Mongoose provided an extremely convenient wrapper for MongoDB in Javascript, and allowed us to quickly adapt our database models as new requirements for the project emerged. Express was also a good choice in this regard, because we were already familiar with it, we were get our server running very quickly.
+Mongoose provided an extremely convenient wrapper for MongoDB in Javascript, and allowed us to quickly adapt our database models as new requirements for the project emerged. Express was also a good choice in this regard, because we were already familiar with it, we were get our server up and running very quickly.
 
 ### The final product
 
