@@ -1,5 +1,5 @@
 +++
-title = "Waypoint 🚶‍♂️ group project "
+title = "Waypoint 🚶 group project "
 date = 2021-09-24
 description = ""
 tags = ["Development"]
