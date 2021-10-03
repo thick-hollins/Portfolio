@@ -44,3 +44,13 @@ code {
 .img-lg img{
   max-height:500px
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #0025f7;
+}
+
+::selection {
+  color: white;
+  background: #0025f7;
+}
