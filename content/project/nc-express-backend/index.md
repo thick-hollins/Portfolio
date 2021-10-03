@@ -13,7 +13,7 @@ version = "0.0"
 +++
 [NC-Express on Github](https://github.com/thick-hollins/nc-express)
 
-The goal of this project was to build a back-end for a reddit-like 'news' site using PostgreSQL and Express. 
+The goal of this project was to build a back-end for a Reddit-like 'news' site using PostgreSQL and Express. 
 
 {{< figure src="nc-e.png">}}
 
