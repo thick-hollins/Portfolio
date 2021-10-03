@@ -9,7 +9,7 @@ I'm a a recent graduate of [Northcoders](https://northcoders.com/) bootcamp, whe
 
 Find my Github at [thick-hollins](https://github.com/thick-hollins)
 
-Email me at <alexnuttall09@gmail.com>
+Email me at <alex@thick-hollins.dev>
 
 Contact me on [LinkedIn](https://www.linkedin.com/in/alex-nuttall/)
 
