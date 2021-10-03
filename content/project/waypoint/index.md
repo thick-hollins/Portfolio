@@ -26,7 +26,7 @@ My group's choice was Waypoint, an app to allow users to record their walks, alo
 
 ### Spiking
 
-To ensure that our project was viable within the given time-frame, we started our work by exploring the possibilities for recording GPS on a mobile device. Our first success in this regard was using [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/) and the relative ease of using that package across our team's differing development environments meant that we quickly settled on it, and therefore, on React Native as our front-end framework. 
+To ensure that our project was viable within the given time-frame, we started our work by exploring the possibilities for recording GPS on a mobile device. Our first success in this regard was using [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/) and the relative ease of using that package across our team's differing development environments meant that we quickly settled on it, and therefore, on **React Native** as our front-end framework. 
 
 ### Road-testing
 
@@ -34,7 +34,7 @@ Although we had a minimal proof-of-concept in terms of accessing out phones' loc
 
 ### Data
 
-We had decided to use MongoDB as our database, to explore alternatives to SQL. After some work to familiarise ourselves with building a database scheme in this environment, out task was to generate and seed test-data which could then serve as a basis for front-end development. Our project didn't use any external API as a data-source, so we had to generate everything necessary to simulate a social network with follows, likes, posts, images and lists of valid co-ordinates (our routes). 
+We had decided to use **MongoDB** as our database, to explore alternatives to SQL. After some work to familiarise ourselves with building a database scheme in this environment, out task was to generate and seed test-data which could then serve as a basis for front-end development. Our project didn't use any external API as a data-source, so we had to generate everything necessary to simulate a social network with follows, likes, posts, images and lists of valid co-ordinates (our routes). 
 
 ### Visuals
 
@@ -42,7 +42,7 @@ The work on the front-end began with rendering sequences of co-ordinates as line
 
 ### Photos
 
-Expo once again provided us with a handy API for accessing our phones' cameras and camera-rolls, and for cropping and re-sizing images. We requested a pre-signed URL from Amazon S3, and sent our photos directly to their servers, and stored their location in our database.
+Expo once again provided us with a handy API for accessing our phones' cameras and camera-rolls, and for cropping and re-sizing images. We requested a pre-signed URL from **Amazon S3**, and sent our photos directly to their servers, and stored their location in our database.
 
 ### React Native
 
@@ -50,7 +50,7 @@ Although we were all already familiar with React, there were challanges in adapt
 
 ### Back-end technologies
 
-Mongoose provided an extremely convenient wrapper for MongoDB in Javascript, and allowed us to quickly adapt our database models as new requirements for the project emerged. Express was also a good choice in this regard, because we were already familiar with it, we were get our server up and running very quickly.
+**Mongoose** provided an extremely convenient wrapper for MongoDB in Javascript, and allowed us to quickly adapt our database models as new requirements for the project emerged. **Express** was also a good choice in this regard, because we were already familiar with it, we were get our server up and running very quickly.
 
 ### The final product
 
