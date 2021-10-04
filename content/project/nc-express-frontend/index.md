@@ -16,7 +16,7 @@ version = "0.0"
 
 [Code](https://github.com/thick-hollins/nc-express-site)
 
-My front-end project at [Northcoders](https://northcoders.com/) was a chance to make a React app consuming my own [NC-Express API]({{< ref "/project/nc-express-backend" >}}). The site allows you to:
+My front-end project at [Northcoders](https://northcoders.com/) was a chance to make a **React** app consuming my own [NC-Express API]({{< ref "/project/nc-express-backend" >}}). The site allows you to:
 
 - Browse articles on the home page, sort by date or likes
 - Browse articles by topic
@@ -45,6 +45,10 @@ Routing is handled with React Router and although the site is a single-page-app,
 ### Votes
 
 A user's votes are fetched on login and then stored in a global context. The Vote component has access to this context, and updates it optimistically as well as sending vote data to the API. Votes are validated in terms of uniqueness both within the front-end and back-end. Optimistic rendering is also used to ensure speedy feedback when posting articles and comments.
+
+### Code organisation
+
+I tried to make components multi-purpose where possible. For example, the Vote component is used to make API calls to different endpoints depending on whether it is used in the context of an article or a comment. Data fetching and loading logic is seperated off into custom hooks to reduce the length of many component files.
 
 ### Further Development
 
