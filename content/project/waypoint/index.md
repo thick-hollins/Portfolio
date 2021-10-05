@@ -14,7 +14,7 @@ version = "0.0"
 +++
 {{< figure src="welcome.png" class="img-lg">}}
 
-Presentation video coming soon
+{{< youtube rmPnrpoBBiA >}}
 
 [Back-end code](https://github.com/thick-hollins/waypoint-be)
 
