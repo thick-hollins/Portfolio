@@ -12,8 +12,6 @@ release_date = "2021-09-24"
 version = "0.0"
 
 +++
-{{< figure src="welcome.png" class="img-lg">}}
-
 {{< youtube rmPnrpoBBiA >}}
 
 [Back-end code](https://github.com/thick-hollins/waypoint-be)
@@ -22,7 +20,10 @@ version = "0.0"
 
 For our final project at Northcoders we had two and a half weeks to plan and build a project of our choice, showing off our back-end and front-end development skills, in a group of five.
 
+
 My group's choice was **Waypoint**, an app to allow users to record their walks, along with points of interest along the way, and to share them on a social network. We summed this up as a 'social tour-guide app'. The tours could be anything from a rural hike, to a historical city-walk or even a pub-crawl.
+
+{{< figure src="welcome.png" class="img-lg">}}
 
 ### Spiking
 
@@ -36,6 +37,8 @@ Although we had a minimal proof-of-concept in terms of accessing out phones' loc
 
 We had decided to use **MongoDB** as our database, to explore alternatives to SQL. After some work to familiarise ourselves with building a database scheme in that environment, out task was to generate and seed test-data which could then serve as a basis for front-end development. Our project didn't use any external API as a data-source, so we had to generate everything necessary to simulate a social network with follows, likes, posts, images and lists of valid co-ordinates (our routes). 
 
+{{< figure src="1.jpg" class="img-lg">}}
+
 ### Visuals
 
 The work on the front-end began with rendering sequences of co-ordinates as lines and points on a map using React Native Maps. This became the basis for a 'post' view and a 'feed' view. 
@@ -43,6 +46,8 @@ The work on the front-end began with rendering sequences of co-ordinates as line
 ### Photos
 
 Expo once again provided us with a handy API for accessing our phones' cameras and camera-rolls, and for cropping and re-sizing images. We requested a pre-signed URL from **Amazon S3**, and sent our photos directly to their servers, and stored the photos' locations in our database.
+
+{{< figure src="2.jpg" class="img-lg">}}
 
 ### React Native
 

@@ -5,6 +5,9 @@ title = "Colour Mixing 🎨"
 +++
 A while ago I made this small Javascript [game](https://thick-hollins.github.io/mixhtml/) based on colour mixing. 
 
+![Bob Ross](Bob_at_Easel.jpg "Bob at easel")
+
+
 Someone attempting to mix two colours might just add two RGB values together. However...
 
 `Coral + IndianRed =`
